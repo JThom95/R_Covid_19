@@ -1,7 +1,7 @@
 ### Set working directory and read in CSV
 setwd("/users/jthoma/Documents/GIS470/Final_Project")
 states <- read.csv("state_final.csv")
-
+### Git Test
 ### Install and library all packages
 install.packages("ppcor")
 install.packages("jtools")
