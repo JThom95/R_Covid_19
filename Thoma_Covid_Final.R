@@ -155,6 +155,8 @@ Poverty_Map <- ggplot() +
 print(Poverty_Map)
 ggsave(plot=Poverty_Map,"Poverty_Map.png")
 
+### Calculate partial correlation
+
 ### Create a Multiple Regression model of Y and X1-3
 #   Turn off e notation
 options(scipen = 999)
